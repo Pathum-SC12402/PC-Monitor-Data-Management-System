@@ -34,12 +34,31 @@ namespace App
 
         private void loginBtn_Click(object sender, EventArgs e)
         {
+            if (usernameInput.Text == "admin" && passwordInput.Text == "admin123")
+            {
+                Dashboard dashboard = new Dashboard();
+                dashboard.Show();
+                this.Hide();
+            }
+            else if(usernameInput.Text == "")
+            {
+                MessageBox.Show("Please Enter Username.");
+            }
+            else if(passwordInput.Text == "")
+            {
+                MessageBox.Show("Please Enter Password.");
+            }
+            else
+            {
+                MessageBox.Show("Please Enter Correct information");
+            }
 
         }
 
         private void clearBtn_Click(object sender, EventArgs e)
         {
-
+            usernameInput.Text = "";
+            passwordInput.Text = "";
         }
     }
 }
