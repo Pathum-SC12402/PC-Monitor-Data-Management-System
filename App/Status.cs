@@ -10,23 +10,16 @@ using System.Windows.Forms;
 
 namespace App
 {
-    public partial class Dashboard : Form
+    public partial class Status : Form
     {
-        public Dashboard()
+        public Status()
         {
             InitializeComponent();
         }
 
-        private void addItem_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void stateItem_Click(object sender, EventArgs e)
-        {
-            Status status = new Status();
-            status.Show();
-            this.Hide();
         }
     }
 }

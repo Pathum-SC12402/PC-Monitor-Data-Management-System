@@ -9,3 +9,4 @@ F:\Projects\academic projects\PC-Monitor-Data-Management-System\App\obj\Debug\Ap
 F:\Projects\academic projects\PC-Monitor-Data-Management-System\App\obj\Debug\App.exe
 F:\Projects\academic projects\PC-Monitor-Data-Management-System\App\obj\Debug\App.pdb
 F:\Projects\academic projects\PC-Monitor-Data-Management-System\App\obj\Debug\App.Dashboard.resources
+F:\Projects\academic projects\PC-Monitor-Data-Management-System\App\obj\Debug\App.Status.resources
