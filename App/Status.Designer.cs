@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Status));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.clearBtn = new System.Windows.Forms.Button();
+            this.statusBtn = new System.Windows.Forms.Button();
             this.backBtn = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -41,8 +43,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.Logo = new System.Windows.Forms.PictureBox();
-            this.statusBtn = new System.Windows.Forms.Button();
-            this.clearBtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel4.SuspendLayout();
@@ -67,6 +67,32 @@
             this.panel1.Size = new System.Drawing.Size(1192, 678);
             this.panel1.TabIndex = 0;
             // 
+            // clearBtn
+            // 
+            this.clearBtn.BackColor = System.Drawing.SystemColors.Desktop;
+            this.clearBtn.Font = new System.Drawing.Font("Ebrima", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clearBtn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.clearBtn.Location = new System.Drawing.Point(1014, 573);
+            this.clearBtn.Name = "clearBtn";
+            this.clearBtn.Size = new System.Drawing.Size(154, 63);
+            this.clearBtn.TabIndex = 6;
+            this.clearBtn.Text = "Clear";
+            this.clearBtn.UseVisualStyleBackColor = false;
+            this.clearBtn.Click += new System.EventHandler(this.clearBtn_Click);
+            // 
+            // statusBtn
+            // 
+            this.statusBtn.BackColor = System.Drawing.SystemColors.Desktop;
+            this.statusBtn.Font = new System.Drawing.Font("Ebrima", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.statusBtn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.statusBtn.Location = new System.Drawing.Point(836, 573);
+            this.statusBtn.Name = "statusBtn";
+            this.statusBtn.Size = new System.Drawing.Size(154, 63);
+            this.statusBtn.TabIndex = 5;
+            this.statusBtn.Text = "Status";
+            this.statusBtn.UseVisualStyleBackColor = false;
+            this.statusBtn.Click += new System.EventHandler(this.Button1_Click);
+            // 
             // backBtn
             // 
             this.backBtn.BackColor = System.Drawing.SystemColors.Desktop;
@@ -78,16 +104,17 @@
             this.backBtn.TabIndex = 4;
             this.backBtn.Text = "Back";
             this.backBtn.UseVisualStyleBackColor = false;
+            this.backBtn.Click += new System.EventHandler(this.backBtn_Click);
             // 
             // dataGridView1
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(659, 155);
+            this.dataGridView1.Location = new System.Drawing.Point(572, 151);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 34;
-            this.dataGridView1.Size = new System.Drawing.Size(509, 256);
+            this.dataGridView1.Size = new System.Drawing.Size(596, 260);
             this.dataGridView1.TabIndex = 3;
             // 
             // panel4
@@ -97,7 +124,7 @@
             this.panel4.Controls.Add(this.label3);
             this.panel4.Location = new System.Drawing.Point(24, 310);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(585, 101);
+            this.panel4.Size = new System.Drawing.Size(531, 101);
             this.panel4.TabIndex = 2;
             // 
             // modelNoInput
@@ -105,7 +132,7 @@
             this.modelNoInput.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.modelNoInput.Location = new System.Drawing.Point(215, 33);
             this.modelNoInput.Name = "modelNoInput";
-            this.modelNoInput.Size = new System.Drawing.Size(347, 40);
+            this.modelNoInput.Size = new System.Drawing.Size(288, 40);
             this.modelNoInput.TabIndex = 1;
             this.modelNoInput.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -127,7 +154,7 @@
             this.panel3.Controls.Add(this.label2);
             this.panel3.Location = new System.Drawing.Point(24, 151);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(585, 101);
+            this.panel3.Size = new System.Drawing.Size(531, 101);
             this.panel3.TabIndex = 1;
             // 
             // brandNameInput
@@ -135,7 +162,7 @@
             this.brandNameInput.Font = new System.Drawing.Font("Ebrima", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.brandNameInput.Location = new System.Drawing.Point(215, 33);
             this.brandNameInput.Name = "brandNameInput";
-            this.brandNameInput.Size = new System.Drawing.Size(347, 40);
+            this.brandNameInput.Size = new System.Drawing.Size(288, 40);
             this.brandNameInput.TabIndex = 1;
             this.brandNameInput.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -180,31 +207,6 @@
             this.Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Logo.TabIndex = 0;
             this.Logo.TabStop = false;
-            // 
-            // statusBtn
-            // 
-            this.statusBtn.BackColor = System.Drawing.SystemColors.Desktop;
-            this.statusBtn.Font = new System.Drawing.Font("Ebrima", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.statusBtn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.statusBtn.Location = new System.Drawing.Point(836, 573);
-            this.statusBtn.Name = "statusBtn";
-            this.statusBtn.Size = new System.Drawing.Size(154, 63);
-            this.statusBtn.TabIndex = 5;
-            this.statusBtn.Text = "Status";
-            this.statusBtn.UseVisualStyleBackColor = false;
-            this.statusBtn.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // clearBtn
-            // 
-            this.clearBtn.BackColor = System.Drawing.SystemColors.Desktop;
-            this.clearBtn.Font = new System.Drawing.Font("Ebrima", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clearBtn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.clearBtn.Location = new System.Drawing.Point(1014, 573);
-            this.clearBtn.Name = "clearBtn";
-            this.clearBtn.Size = new System.Drawing.Size(154, 63);
-            this.clearBtn.TabIndex = 6;
-            this.clearBtn.Text = "Clear";
-            this.clearBtn.UseVisualStyleBackColor = false;
             // 
             // Status
             // 
