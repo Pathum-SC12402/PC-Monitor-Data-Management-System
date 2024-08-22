@@ -1,0 +1,15 @@
+create database monitor_data;
+use monitor_data;
+create table table_1(id int primary key auto_increment ,brand_name varchar(60),model_no varchar(60),display_type varchar(30),resolution varchar(40),display_size varchar(30),warranty varchar(20),stock int,price varchar(30));
+
+INSERT INTO table_1 (brand_name, model_no, display_type, resolution, display_size, warranty, stock, price) VALUES
+('Samsung', 'SM123', 'LED', '1920x1080', '24 inches', '2 years', 50, 'Rs. 90,000'),
+('LG', 'LG456', 'OLED', '3840x2160', '55 inches', '3 years', 30, 'Rs. 432,000'),
+('Sony', 'SY789', 'LCD', '1366x768', '32 inches', '1 year', 20, 'Rs. 108,000'),
+('Dell', 'DL012', 'IPS', '1920x1200', '27 inches', '2 years', 15, 'Rs. 162,000'),
+('Asus', 'AS345', 'TN', '2560x1440', '24 inches', '2 years', 25, 'Rs. 126,000'),
+('HP', 'HP678', 'IPS', '1920x1080', '27 inches', '2 years', 40, 'Rs. 144,000'),
+('Acer', 'AC901', 'LED', '3840x2160', '28 inches', '1 year', 10, 'Rs. 180,000'),
+('BenQ', 'BQ234', 'VA', '1920x1080', '24 inches', '1 year', 35, 'Rs. 82,800'),
+('ViewSonic', 'VS567', 'IPS', '1920x1080', '23 inches', '3 years', 12, 'Rs. 75,600'),
+('Philips', 'PH890', 'LED', '2560x1440', '25 inches', '2 years', 28, 'Rs. 129,600');
