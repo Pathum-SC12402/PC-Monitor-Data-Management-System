@@ -114,7 +114,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 34;
-            this.dataGridView1.Size = new System.Drawing.Size(585, 260);
+            this.dataGridView1.Size = new System.Drawing.Size(596, 260);
             this.dataGridView1.TabIndex = 3;
             // 
             // panel4
@@ -192,7 +192,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Ebrima", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(440, 14);
+            this.label1.Location = new System.Drawing.Point(429, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(749, 54);
             this.label1.TabIndex = 1;
@@ -201,7 +201,7 @@
             // Logo
             // 
             this.Logo.Image = ((System.Drawing.Image)(resources.GetObject("Logo.Image")));
-            this.Logo.Location = new System.Drawing.Point(22, 14);
+            this.Logo.Location = new System.Drawing.Point(13, 12);
             this.Logo.Name = "Logo";
             this.Logo.Size = new System.Drawing.Size(52, 52);
             this.Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
