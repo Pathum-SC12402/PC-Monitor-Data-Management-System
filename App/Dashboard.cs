@@ -28,5 +28,12 @@ namespace App
             status.Show();
             this.Hide();
         }
+
+        private void searchItem_Click(object sender, EventArgs e)
+        {
+            Search search = new Search();   
+            search.Show();  
+            this.Hide();    
+        }
     }
 }
