@@ -15,6 +15,7 @@ namespace App
         public Login()
         {
             InitializeComponent();
+            passwordInput.PasswordChar = '•';
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
