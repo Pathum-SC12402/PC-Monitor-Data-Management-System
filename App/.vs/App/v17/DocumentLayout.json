@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|solutionrelative:Status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|solutionrelative:Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|f:\\projects\\academic projects\\pc-monitor-data-management-system\\app\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|solutionrelative:status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|solutionrelative:Status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\DBconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,10 +27,6 @@
       "RelativeMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|solutionrelative:Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -38,24 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Status.cs",
               "DocumentMoniker": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Status.cs",
               "RelativeDocumentMoniker": "Status.cs",
               "ToolTip": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Status.cs",
               "RelativeToolTip": "Status.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAwwEMAAAA4AAAA",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAqwF4AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-14T02:41:21.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DBconnection.cs",
               "DocumentMoniker": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\DBconnection.cs",
               "RelativeDocumentMoniker": "DBconnection.cs",
@@ -80,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Dashboard.cs",
               "DocumentMoniker": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Dashboard.cs",
               "RelativeDocumentMoniker": "Dashboard.cs",
@@ -93,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Dashboard.cs [Design]",
               "DocumentMoniker": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Dashboard.cs",
               "RelativeDocumentMoniker": "Dashboard.cs",
@@ -105,13 +105,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Login.cs",
               "DocumentMoniker": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Login.cs",
               "RelativeDocumentMoniker": "Login.cs",
               "ToolTip": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Login.cs",
               "RelativeToolTip": "Login.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAA3wC4AAAArAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAqwBEAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-12T19:35:53.115Z",
               "EditorCaption": ""
