@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|solutionrelative:Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|f:\\projects\\academic projects\\pc-monitor-data-management-system\\app\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|solutionrelative:status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|solutionrelative:Status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\DBconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|solutionrelative:DBconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|solutionrelative:Dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|f:\\projects\\academic projects\\pc-monitor-data-management-system\\app\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|solutionrelative:search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|solutionrelative:Status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|f:\\projects\\academic projects\\pc-monitor-data-management-system\\app\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|solutionrelative:search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\DBconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|solutionrelative:DBconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|f:\\projects\\academic projects\\pc-monitor-data-management-system\\app\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|solutionrelative:status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|solutionrelative:Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E91E91CB-78D2-4AC4-A8F4-3916CEFB3D34}|App.csproj|F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -38,62 +46,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Search.cs",
+              "DocumentMoniker": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Search.cs",
+              "RelativeDocumentMoniker": "Search.cs",
+              "ToolTip": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Search.cs",
+              "RelativeToolTip": "Search.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAAEQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:45:43.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Search.cs [Design]",
+              "DocumentMoniker": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Search.cs",
+              "RelativeDocumentMoniker": "Search.cs",
+              "ToolTip": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Search.cs [Design]",
+              "RelativeToolTip": "Search.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:19:35.41Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Status.cs",
               "DocumentMoniker": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Status.cs",
               "RelativeDocumentMoniker": "Status.cs",
               "ToolTip": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Status.cs",
               "RelativeToolTip": "Status.cs",
-              "ViewState": "AQIAAFgAAAAAAAAAAAAqwF4AAAANAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAqwFwAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-14T02:41:21.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "DBconnection.cs",
               "DocumentMoniker": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\DBconnection.cs",
               "RelativeDocumentMoniker": "DBconnection.cs",
               "ToolTip": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\DBconnection.cs",
               "RelativeToolTip": "DBconnection.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAtAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBYAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T04:14:03.124Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Status.cs [Design]",
-              "DocumentMoniker": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Status.cs",
-              "RelativeDocumentMoniker": "Status.cs",
-              "ToolTip": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Status.cs [Design]",
-              "RelativeToolTip": "Status.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T02:18:19.038Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Dashboard.cs",
               "DocumentMoniker": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Dashboard.cs",
               "RelativeDocumentMoniker": "Dashboard.cs",
               "ToolTip": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Dashboard.cs",
               "RelativeToolTip": "Dashboard.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAYAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAIA1wCMAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-13T01:31:58.588Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Dashboard.cs [Design]",
               "DocumentMoniker": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Dashboard.cs",
               "RelativeDocumentMoniker": "Dashboard.cs",
@@ -105,20 +126,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "Status.cs [Design]",
+              "DocumentMoniker": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Status.cs",
+              "RelativeDocumentMoniker": "Status.cs",
+              "ToolTip": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Status.cs [Design]",
+              "RelativeToolTip": "Status.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T02:18:19.038Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Login.cs",
               "DocumentMoniker": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Login.cs",
               "RelativeDocumentMoniker": "Login.cs",
               "ToolTip": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Login.cs",
               "RelativeToolTip": "Login.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAqwBEAAAAtAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAwAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-12T19:35:53.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Login.cs",
               "RelativeDocumentMoniker": "Login.cs",

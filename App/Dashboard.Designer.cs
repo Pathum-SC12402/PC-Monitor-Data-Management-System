@@ -82,6 +82,7 @@
             this.searchItem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.searchItem.TabIndex = 4;
             this.searchItem.TabStop = false;
+            this.searchItem.Click += new System.EventHandler(this.searchItem_Click);
             // 
             // updateItem
             // 
