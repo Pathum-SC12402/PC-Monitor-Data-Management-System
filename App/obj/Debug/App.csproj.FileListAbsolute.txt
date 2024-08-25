@@ -44,3 +44,5 @@ F:\Projects\academic projects\PC-Monitor-Data-Management-System\App\bin\Debug\Sy
 F:\Projects\academic projects\PC-Monitor-Data-Management-System\App\bin\Debug\System.Threading.Tasks.Extensions.xml
 F:\Projects\academic projects\PC-Monitor-Data-Management-System\App\obj\Debug\App.csproj.Up2Date
 F:\Projects\academic projects\PC-Monitor-Data-Management-System\App\obj\Debug\App.Search.resources
+F:\Projects\academic projects\PC-Monitor-Data-Management-System\App\obj\Debug\App.Add.resources
+F:\Projects\academic projects\PC-Monitor-Data-Management-System\App\obj\Debug\App.Delete.resources
