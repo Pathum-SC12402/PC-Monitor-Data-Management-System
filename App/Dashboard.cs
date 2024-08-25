@@ -37,5 +37,12 @@ namespace App
             search.Show();  
             this.Hide();    
         }
+
+        private void deleteItem_Click(object sender, EventArgs e)
+        {
+            Delete delete = new Delete();
+            delete.Show();
+            this.Hide();
+        }
     }
 }

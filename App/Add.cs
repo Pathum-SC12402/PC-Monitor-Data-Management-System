@@ -26,48 +26,45 @@ namespace App
         {
             try
             {
-                if (brandNameInput.Text == "" && modelNoInput.Text == "" && displayTypeInput.Text == "" && resolutionInput.Text == "" && displaySizeInput.Text == "" && warrantyInput.Text == "" && stockInput.Text == "" && priceInput.Text == "")
+                if (string.IsNullOrEmpty(brandNameInput.Text) || string.IsNullOrEmpty(modelNoInput.Text) ||
+                    string.IsNullOrEmpty(displayTypeInput.Text) || string.IsNullOrEmpty(resolutionInput.Text) ||
+                    string.IsNullOrEmpty(displaySizeInput.Text) || string.IsNullOrEmpty(warrantyInput.Text) ||
+                    string.IsNullOrEmpty(stockInput.Text) || string.IsNullOrEmpty(priceInput.Text))
                 {
-                    MessageBox.Show("Some information are missing!");
+                    MessageBox.Show("Some information is missing!");
                 }
                 else
                 {
-                    string query = string.Empty;
-                        query = "SELECT brand_name, model_no, display_type, resolution, display_size, warranty, price FROM table_1 WHERE model_no LIKE @modelNo";
-                   
-                    
+                    string query = "INSERT INTO table_1 (brand_name, model_no, display_type, resolution, display_size, warranty, stock, price)" +
+                                   "VALUES (@brandName, @modelNo, @displayType, @resolution, @displaySize, @warranty, @stock, @price)";
 
                     MySqlCommand cmd = new MySqlCommand(query, con);
+                    cmd.Parameters.AddWithValue("@brandName", brandNameInput.Text);
+                    cmd.Parameters.AddWithValue("@modelNo", modelNoInput.Text);
+                    cmd.Parameters.AddWithValue("@displayType", displayTypeInput.Text);
+                    cmd.Parameters.AddWithValue("@resolution", resolutionInput.Text);
+                    cmd.Parameters.AddWithValue("@displaySize", displaySizeInput.Text);
+                    cmd.Parameters.AddWithValue("@warranty", warrantyInput.Text);
+                    cmd.Parameters.AddWithValue("@stock", int.Parse(stockInput.Text));
+                    cmd.Parameters.AddWithValue("@price", priceInput.Text);
 
-                    if (modelNoInput.Text != "")
-                    {
-                        cmd.Parameters.AddWithValue("@modelNo", modelNoInput.Text + "%");
-                    }
-                    else if (brandNameInput.Text != "")
-                    {
-                        cmd.Parameters.AddWithValue("@brandName", brandNameInput.Text + "%");
-                    }
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("Data inserted successfully!");
 
-                    MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
-                    DataTable dt = new DataTable();
-                    adapter.Fill(dt);
-
-                    if (dt.Rows.Count == 0)
-                    {
-                        MessageBox.Show("No matching records found.");
-                        brandNameInput.Text = "";
-                        modelNoInput.Text = "";
-                        dataGridView1.DataSource = null;
-                    }
-                    else
-                    {
-                        dataGridView1.DataSource = dt;
-                    }
+                    clearBtn_Click(sender, e);
                 }
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+                if (con.State == System.Data.ConnectionState.Open)
+                {
+                    con.Close();
+                }
             }
         }
 
