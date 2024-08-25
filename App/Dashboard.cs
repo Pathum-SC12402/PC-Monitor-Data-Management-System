@@ -19,7 +19,9 @@ namespace App
 
         private void addItem_Click(object sender, EventArgs e)
         {
-
+            Add add = new Add();
+            add.Show();
+            this.Hide();
         }
 
         private void stateItem_Click(object sender, EventArgs e)
