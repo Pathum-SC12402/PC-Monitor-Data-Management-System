@@ -97,6 +97,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
               "Title": "Status.cs",
               "DocumentMoniker": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Status.cs",
@@ -104,6 +105,15 @@
               "ToolTip": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Status.cs",
               "RelativeToolTip": "Status.cs",
               "ViewState": "AQIAACUAAAAAAAAAAAAuwFkAAAAZAAAA",
+=======
+              "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Login.cs",
+              "RelativeDocumentMoniker": "Login.cs",
+              "ToolTip": "F:\\Projects\\academic projects\\PC-Monitor-Data-Management-System\\App\\Login.cs",
+              "RelativeToolTip": "Login.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowC4AAAArAAAA",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T13:55:28.398Z",
               "EditorCaption": ""
