@@ -28,7 +28,7 @@ namespace App
         {
             try
             {
-                if (brandNameInput.Text == "" && modelNoInput.Text == "")
+                if (string.IsNullOrEmpty(brandNameInput.Text) && string.IsNullOrEmpty(modelNoInput.Text))
                 {
                     MessageBox.Show("Please Enter model number or brand name");
                 }
@@ -90,6 +90,29 @@ namespace App
                         }
 
                         dataGridView1.DataSource = dt;
+
+                        foreach (DataGridViewRow dgvRow in dataGridView1.Rows)
+                        {
+                            var state = dgvRow.Cells["state"].Value;
+
+                            if (state != null)
+                            {
+                                string stateValue = state.ToString();
+
+                                if (stateValue == "Out of Stock")
+                                {
+                                    dgvRow.DefaultCellStyle.BackColor = Color.Red;
+                                }
+                                else if (stateValue == "Low")
+                                {
+                                    dgvRow.DefaultCellStyle.BackColor = Color.Orange;
+                                }
+                                else if (stateValue == "Normal")
+                                {
+                                    dgvRow.DefaultCellStyle.BackColor = Color.Green;
+                                }
+                            }
+                        }
                     }
                 }
             }

@@ -103,6 +103,7 @@
             this.deleteItem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.deleteItem.TabIndex = 2;
             this.deleteItem.TabStop = false;
+            this.deleteItem.Click += new System.EventHandler(this.deleteItem_Click);
             // 
             // addItem
             // 

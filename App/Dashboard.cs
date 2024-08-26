@@ -19,7 +19,9 @@ namespace App
 
         private void addItem_Click(object sender, EventArgs e)
         {
-
+            Add add = new Add();
+            add.Show();
+            this.Hide();
         }
 
         private void stateItem_Click(object sender, EventArgs e)
@@ -34,6 +36,13 @@ namespace App
             Search search = new Search();   
             search.Show();  
             this.Hide();    
+        }
+
+        private void deleteItem_Click(object sender, EventArgs e)
+        {
+            Delete delete = new Delete();
+            delete.Show();
+            this.Hide();
         }
     }
 }
